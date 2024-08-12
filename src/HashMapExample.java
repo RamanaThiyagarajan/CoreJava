@@ -13,8 +13,10 @@ public class HashMapExample {
 		hm.put(1, "Automation");
 		hm.put(2, "Cypress");
 		hm.put(3, "Automation");
+		
 		System.out.println(hm.get(2));
 		hm.remove(2);
+		System.out.println(hm.containsKey(0));
 		System.out.println(hm.get(2));
 		Set hs= hm.entrySet(); //This method is used to convert hashmap in to set
 		Iterator it= hs.iterator(); //after converting to set, Iterate the Set object

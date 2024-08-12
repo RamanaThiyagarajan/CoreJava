@@ -12,6 +12,10 @@ public class AustralianTraffic implements CentralTraffic, ContinentalTraffic{
 		
 		AustralianTraffic at=new AustralianTraffic();
 		at.walkthrough();
+		at.redStop();
+		at.flashYelow();
+		at.greenGo();
+		//at.TrainSymbol();
 		
 		ContinentalTraffic ct= new AustralianTraffic();
 		ct.TrainSymbol();		
